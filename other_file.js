@@ -12,5 +12,5 @@ if (name === "Susan") {
 if (index.height === 70) {
   console.log("Correct height returned")
 } else {
-  console.log("")
+  console.log("Expected a height of " + this.height + ", instead a height of " + index.height + " was returned.")
 }

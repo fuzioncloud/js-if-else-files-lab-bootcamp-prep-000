@@ -2,14 +2,16 @@ var index = require("./index.js")
 
 //console.log(index.name)
 
-if (index.name === "Beth") {
-  console.log("The name is correct")
+if (index.name === "Susan") {
+  console.log("The name "+index.name+" is correct")
 } else {
-  console.log("Expected " + this.name + "; Received the name " + index.name + " instead." )
+  name = "Susan";
+  console.log("Expected " +name+ "; Received the name "+index.name+" instead.")
 }
 
 if (index.height === 70) {
-  console.log("Correct height returned")
+  console.log("The correct height of "+index.height+" was returned.")
 } else {
+  height = 70;
   console.log("Expected a height of " + this.height + ", instead a height of " + index.height + " was returned.")
 }

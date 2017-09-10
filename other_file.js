@@ -5,7 +5,6 @@ var index = require("./index.js")
 if (index.name === "Beth") {
   console.log("The name is correct")
 } else {
-  name = "Susan"
   console.log("Expected " + this.name + "; Received the name " + index.name + " instead." )
 }
 
